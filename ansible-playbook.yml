@@ -1,0 +1,6 @@
+- name : "Playbook to install docker on all hosts"
+  become: yes
+  hosts: all
+  roles:
+    - geerlingguy.docker
+    
